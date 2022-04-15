@@ -18,4 +18,8 @@ router.post("/register", async (req, res) => {
     }
 });
 
+router.get("/salut", (req,res) => {
+    res.send("hai noroc");
+});
+
 module.exports = router;
